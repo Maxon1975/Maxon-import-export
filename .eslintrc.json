@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+     "es6": true,
+     "browser": true,
+     "jest": true
+  },
+  "rules": {
+  	"class-methods-use-this": "off",
+  	"no-undef": "off",
+  	"max-classes-per-file": ["error", 2],
+  	"no-unused-vars": "off",
+    "no-console": "off",
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ]
+  }
+}
